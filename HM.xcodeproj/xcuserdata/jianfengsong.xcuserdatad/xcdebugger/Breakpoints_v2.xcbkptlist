@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncSlice.cpp"
+            timestampString = "570393232.748062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "909"
+            endingLineNumber = "909"
+            landmarkName = "TEncSlice::compressSlice( TComPic* pcPic, const Bool bCompressEntireSlice, const Bool bFastDeltaQP , ofstream&amp; myfile)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncSlice.cpp"
+            timestampString = "570393232.7484469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "879"
+            endingLineNumber = "879"
+            landmarkName = "TEncSlice::compressSlice( TComPic* pcPic, const Bool bCompressEntireSlice, const Bool bFastDeltaQP , ofstream&amp; myfile)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncGOP.cpp"
+            timestampString = "571790363.681241"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1191"
+            endingLineNumber = "1191"
+            landmarkName = "TEncGOP::compressGOP( Int iPOCLast, Int iNumPicRcvd, TComList&lt;TComPic*&gt;&amp; rcListPic, TComList&lt;TComPicYuv*&gt;&amp; rcListPicYuvRecOut, std::list&lt;AccessUnit&gt;&amp; accessUnitsInGOP, Bool isField, Bool isTff, const InputColourSpaceConversion snr_conversion, const TEncAnalyze::OutputLogControl &amp;outputLogCtrl , ofstream&amp; myfile)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncGOP.cpp"
+            timestampString = "571790363.681299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1686"
+            endingLineNumber = "1686"
+            landmarkName = "TEncGOP::compressGOP( Int iPOCLast, Int iNumPicRcvd, TComList&lt;TComPic*&gt;&amp; rcListPic, TComList&lt;TComPicYuv*&gt;&amp; rcListPicYuvRecOut, std::list&lt;AccessUnit&gt;&amp; accessUnitsInGOP, Bool isField, Bool isTff, const InputColourSpaceConversion snr_conversion, const TEncAnalyze::OutputLogControl &amp;outputLogCtrl , ofstream&amp; myfile)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncSlice.h"
+            timestampString = "569127398.460438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "TEncSlice"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncSlice.h"
+            timestampString = "569127398.460495"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "TEncSlice"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncTop.h"
+            timestampString = "569127398.460551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "encode( Bool bEos, TComPicYuv* pcPicYuvOrg, TComPicYuv* pcPicYuvTrueOrg, const InputColourSpaceConversion snrCSC, // used for SNR calculations. Picture in original colour space. TComList&lt;TComPicYuv*&gt;&amp; rcListPicYuvRecOut, std::list&lt;AccessUnit&gt;&amp; accessUnitsOut, Int&amp; iNumEncoded )"
+            landmarkType = "6">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibEncoder/TEncGOP.cpp"
+            timestampString = "571790363.681362"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1689"
+            endingLineNumber = "1689"
+            landmarkName = "TEncGOP::compressGOP( Int iPOCLast, Int iNumPicRcvd, TComList&lt;TComPic*&gt;&amp; rcListPic, TComList&lt;TComPicYuv*&gt;&amp; rcListPicYuvRecOut, std::list&lt;AccessUnit&gt;&amp; accessUnitsInGOP, Bool isField, Bool isTff, const InputColourSpaceConversion snr_conversion, const TEncAnalyze::OutputLogControl &amp;outputLogCtrl , ofstream&amp; myfile)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
